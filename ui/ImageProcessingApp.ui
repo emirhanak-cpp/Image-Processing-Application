@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1144</width>
+    <height>508</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>OOP2 Lab Final Assignment</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="0" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_7">
+        <item>
+         <widget class="QGroupBox" name="sourceGroupBox">
+          <property name="title">
+           <string>Source</string>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <item>
+            <widget class="QPushButton" name="sourceOpenButton">
+             <property name="toolTip">
+              <string>Open</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>../images/open_file.png</normaloff>../images/open_file.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>16</width>
+               <height>16</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="sourceExportButton">
+             <property name="toolTip">
+              <string>Export</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>../images/export.png</normaloff>../images/export.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="sourceClearButton">
+             <property name="toolTip">
+              <string>Clear</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>../images/delete.png</normaloff>../images/delete.png</iconset>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="outputGroupBox">
+          <property name="title">
+           <string>Output</string>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <item>
+            <widget class="QPushButton" name="outputSaveButton">
+             <property name="toolTip">
+              <string>Save</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>../images/save.png</normaloff>../images/save.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="outputSaveAsButton">
+             <property name="toolTip">
+              <string>Save As</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>../images/save.png</normaloff>../images/save.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="outputExportButton">
+             <property name="toolTip">
+              <string>Export</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>../images/export.png</normaloff>../images/export.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="outputClearButton">
+             <property name="toolTip">
+              <string>Clear</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>../images/delete.png</normaloff>../images/delete.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="outputUndoButton">
+             <property name="toolTip">
+              <string>Undo</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>../images/undo.png</normaloff>../images/undo.png</iconset>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="outputRedoButton">
+             <property name="toolTip">
+              <string>Redo</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>../images/redo.png</normaloff>../images/redo.png</iconset>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QGroupBox" name="sourceGraphicsGroupBox">
+          <property name="title">
+           <string>Source</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_2">
+           <item row="0" column="0">
+            <widget class="QGraphicsView" name="sourceGraphicsView"/>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="outputGraphicsGroupBox">
+          <property name="title">
+           <string>Output</string>
+          </property>
+          <layout class="QGridLayout" name="gridLayout">
+           <item row="0" column="0">
+            <widget class="QGraphicsView" name="outputGraphicsView"/>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_6">
+        <item>
+         <widget class="QGroupBox" name="conversionGroupBox">
+          <property name="title">
+           <string>Conversion</string>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_5">
+           <item>
+            <widget class="QPushButton" name="rgbToGrayscaleButton">
+             <property name="text">
+              <string>RGB to Grayscale</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="rgbToHsvButton">
+             <property name="text">
+              <string>RGB to HSV</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="segmentationGroupBox">
+          <property name="title">
+           <string>Segmentation</string>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_4">
+           <item>
+            <widget class="QPushButton" name="multiOtsuThresholdingButton">
+             <property name="text">
+              <string>Multi-Otsu Thresholding</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="chanVeseSegmentationButton">
+             <property name="text">
+              <string>Chan-Vese Segmentation</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="morphologicalSnakesButton">
+             <property name="text">
+              <string>Morphological Snakes</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="edgeDetectionGroupBox">
+          <property name="title">
+           <string>Edge Detection</string>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_3">
+           <item>
+            <widget class="QPushButton" name="robertsButton">
+             <property name="text">
+              <string>Roberts</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="sobelButton">
+             <property name="text">
+              <string>Sobel</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="scharrButton">
+             <property name="text">
+              <string>Scharr</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="prewittButton">
+             <property name="text">
+              <string>Prewitt</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1144</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <widget class="QMenu" name="menuExport_As">
+     <property name="title">
+      <string>Export As</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../images/export.png</normaloff>../images/export.png</iconset>
+     </property>
+     <addaction name="actionExportSource"/>
+     <addaction name="actionExportOutput"/>
+    </widget>
+    <addaction name="actionOpen_Source"/>
+    <addaction name="actionSave_Output"/>
+    <addaction name="actionSave_As_Output"/>
+    <addaction name="menuExport_As"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <widget class="QMenu" name="menuClear">
+     <property name="title">
+      <string>Clear</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../images/delete.png</normaloff>../images/delete.png</iconset>
+     </property>
+     <addaction name="actionClearSource"/>
+     <addaction name="actionClearOutput"/>
+    </widget>
+    <addaction name="menuClear"/>
+    <addaction name="actionUndo_Output"/>
+    <addaction name="actionRedo_Output"/>
+   </widget>
+   <widget class="QMenu" name="menuConversio">
+    <property name="title">
+     <string>Conversion</string>
+    </property>
+    <addaction name="actionRGB_to_Grayscale"/>
+    <addaction name="actionRGB_to_HSV"/>
+   </widget>
+   <widget class="QMenu" name="menuSegmentation">
+    <property name="title">
+     <string>Segmentation</string>
+    </property>
+    <addaction name="actionMulti_Otsu_Thresholding"/>
+    <addaction name="actionChan_Vese_Segmentation"/>
+    <addaction name="actionMorphologcial_Snakes"/>
+   </widget>
+   <widget class="QMenu" name="menuEdge_Detection">
+    <property name="title">
+     <string>Edge Detection</string>
+    </property>
+    <addaction name="actionRoberts"/>
+    <addaction name="actionSobel"/>
+    <addaction name="actionScharr"/>
+    <addaction name="actionPrewitt"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuConversio"/>
+   <addaction name="menuSegmentation"/>
+   <addaction name="menuEdge_Detection"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionOpen_Source">
+   <property name="icon">
+    <iconset>
+     <normaloff>../images/open_file.png</normaloff>../images/open_file.png</iconset>
+   </property>
+   <property name="text">
+    <string>Open Source</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionSave_Output">
+   <property name="icon">
+    <iconset>
+     <normaloff>../images/save.png</normaloff>../images/save.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save Output</string>
+   </property>
+  </action>
+  <action name="actionSave_As_Output">
+   <property name="icon">
+    <iconset>
+     <normaloff>../images/save.png</normaloff>../images/save.png</iconset>
+   </property>
+   <property name="text">
+    <string>Save As Output</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+   <property name="shortcut">
+    <string>Shift+F4</string>
+   </property>
+  </action>
+  <action name="actionExportSource">
+   <property name="text">
+    <string>Source</string>
+   </property>
+  </action>
+  <action name="actionExportOutput">
+   <property name="text">
+    <string>Output</string>
+   </property>
+  </action>
+  <action name="actionUndo_Output">
+   <property name="icon">
+    <iconset>
+     <normaloff>../images/undo.png</normaloff>../images/undo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Undo Output</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+Z</string>
+   </property>
+  </action>
+  <action name="actionRedo_Output">
+   <property name="icon">
+    <iconset>
+     <normaloff>../images/redo.png</normaloff>../images/redo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Redo Output</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Y</string>
+   </property>
+  </action>
+  <action name="actionClearSource">
+   <property name="text">
+    <string>Source</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+L</string>
+   </property>
+  </action>
+  <action name="actionClearOutput">
+   <property name="text">
+    <string>Output</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+L</string>
+   </property>
+  </action>
+  <action name="actionRGB_to_Grayscale">
+   <property name="text">
+    <string>RGB to Grayscale</string>
+   </property>
+  </action>
+  <action name="actionRGB_to_HSV">
+   <property name="text">
+    <string>RGB to HSV</string>
+   </property>
+  </action>
+  <action name="actionMulti_Otsu_Thresholding">
+   <property name="text">
+    <string>Multi-Otsu Thresholding</string>
+   </property>
+  </action>
+  <action name="actionChan_Vese_Segmentation">
+   <property name="text">
+    <string>Chan-Vese Segmentation</string>
+   </property>
+  </action>
+  <action name="actionMorphologcial_Snakes">
+   <property name="text">
+    <string>Morphologcial Snakes</string>
+   </property>
+  </action>
+  <action name="actionRoberts">
+   <property name="text">
+    <string>Roberts</string>
+   </property>
+  </action>
+  <action name="actionSobel">
+   <property name="text">
+    <string>Sobel</string>
+   </property>
+  </action>
+  <action name="actionScharr">
+   <property name="text">
+    <string>Scharr</string>
+   </property>
+  </action>
+  <action name="actionPrewitt">
+   <property name="text">
+    <string>Prewitt</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
