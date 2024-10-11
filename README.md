@@ -5,7 +5,7 @@ In order to run the file you just need to execute the driver.
 In the final release of the application example images and doxygen documentation is also included.
 
 ## How to use:
--Run `ImageProcessingAppDriver.py`
--Click on the folder icon or click on File then Open Source to open an image with .png, .jpg or .jpeg extensions
--Select the desired image processing technique
--Export or save the new image as .png, .jpg or .jpeg files
+- Run `ImageProcessingAppDriver.py`
+- Click on the folder icon or click on File then Open Source to open an image with .png, .jpg or .jpeg extensions
+- Select the desired image processing technique
+- Export or save the new image as .png, .jpg or .jpeg files
